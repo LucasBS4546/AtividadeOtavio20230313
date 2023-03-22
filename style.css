@@ -20,19 +20,22 @@ th {
     color: white;
 }
 tr:nth-child(3n) {
-    background-color: #f2f2f2;
+    background-color: #e2e2e2;
 }
 tr:nth-child(3n+1) {
-    background-color: rgb(221, 221, 221)
+    background-color: rgb(240, 240, 240);
+}
+tr:nth-child(3n+2) {
+    background-color: rgb(207, 207, 207);
 }
 tr:hover:nth-child(3n) {
-    background-color: #b8b9ff;
-}
-tr:hover:nth-child(3n+2) {
-    background-color: #dde0ff;
+    background-color: #b1a9ff;
 }
 tr:hover:nth-child(3n+1) {
-    background-color: #9b9dff;
+    background-color: rgb(156, 255, 153);
+}
+tr:hover:nth-child(3n+2) {
+    background-color: rgb(255, 133, 133);
 }
 main {
     padding: 30px;
