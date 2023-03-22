@@ -19,14 +19,20 @@ th {
     background-color: #04AA6D;
     color: white;
 }
-tr:nth-child(even) {
+tr:nth-child(3n) {
     background-color: #f2f2f2;
 }
-tr:hover:nth-child(even) {
-    background-color: #cfcfcf;
+tr:nth-child(3n+1) {
+    background-color: rgb(221, 221, 221)
 }
-tr:hover:nth-child(odd) {
-    background-color: #e4e4e4;
+tr:hover:nth-child(3n) {
+    background-color: #b8b9ff;
+}
+tr:hover:nth-child(3n+2) {
+    background-color: #dde0ff;
+}
+tr:hover:nth-child(3n+1) {
+    background-color: #9b9dff;
 }
 main {
     padding: 30px;
