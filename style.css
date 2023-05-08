@@ -1,6 +1,12 @@
 body {
     margin: 0px;
 }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 header {
     background-color: lightblue;
     padding-block: 1px;
@@ -14,7 +20,14 @@ table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
   }
+table caption {
+    margin-block:30px;
+    font-size: 30px;
+}
 th {
     background-color: #04AA6D;
     color: white;
@@ -51,4 +64,15 @@ header section {
 }
 header section img {
     width: 100px;
+}
+button {
+    background-color: #04AA6D;
+    color: black;
+    font-family:monospace;
+    border-radius: 30px;
+    width: 12vw;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: 900;
+    border: 3px solid black;
 }
